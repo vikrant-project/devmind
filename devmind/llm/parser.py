@@ -31,8 +31,15 @@ def extract_code(text: str) -> str:
     if not text:
         return ""
     fences = _FENCE_RE.findall(text)
-    if fences:
-        return fences[0].strip("\n")
+    # Skip fences whose content looks like a unified diff -- callers that want
+    # diffs use extract_diff().
+    for f in fences:
+        stripped = f.strip("\n")
+        if "---" in stripped and "+++" in stripped and "@@" in stripped:
+            continue
+        if stripped.startswith(("--- ", "@@ ", "+++ ")):
+            continue
+        return stripped
     return text.strip()
 
 

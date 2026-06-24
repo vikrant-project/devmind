@@ -93,7 +93,7 @@ def build(
     planning_model: Optional[str] = typer.Option(None, "--planning-model"),
     mode: str = typer.Option("autonomous", "--mode"),
     max_iterations: int = typer.Option(5, "--max-iterations"),
-    no_docker: bool = typer.Option(False, "--no-docker"),
+    no_docker: bool = typer.Option(True, "--no-docker/--use-docker"),
     output_dir: Optional[str] = typer.Option(None, "--output-dir"),
     no_git: bool = typer.Option(False, "--no-git"),
     export_zip_flag: bool = typer.Option(False, "--export-zip"),

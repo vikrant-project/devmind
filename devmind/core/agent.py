@@ -38,7 +38,7 @@ from ..workspace.sandbox import Sandbox
 
 class Agent:
     def __init__(self, *, mode: str = "autonomous", max_iterations: int = 5,
-                 use_docker: bool = True, model_override: Optional[str] = None):
+                 use_docker: bool = False, model_override: Optional[str] = None):
         self.mode = mode
         self.max_iterations = max_iterations
         self.use_docker = use_docker
