@@ -12,3 +12,4 @@ models/*.gguf
 .devmind/
 *.log
 benchmark_results.json
+BUILD_REPORT.txt
