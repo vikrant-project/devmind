@@ -1,0 +1,1 @@
+Example prompt: see devmind/eval/benchmarks/*.txt for full set.

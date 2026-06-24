@@ -1,0 +1,1 @@
+Build a single-page responsive portfolio website using plain HTML, CSS, and vanilla JavaScript. Sections: hero, about, projects (3 cards), contact form. No frameworks.

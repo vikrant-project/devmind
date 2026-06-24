@@ -1,0 +1,1 @@
+Build a Python web scraper that fetches the top 10 Hacker News headlines from https://news.ycombinator.com and saves them as JSON to hn.json. Use httpx and a simple HTML parser.

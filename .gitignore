@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.env
+workspaces/
+models/*.gguf
+.devmind/
+*.log
+benchmark_results.json

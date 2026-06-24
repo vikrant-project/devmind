@@ -1,0 +1,1 @@
+Build a FastAPI todo list REST API with SQLite storage. Endpoints: POST /todos (create), GET /todos (list), GET /todos/{id}, PUT /todos/{id} (update), DELETE /todos/{id}. Include pytest tests covering all endpoints. Use pydantic v2.

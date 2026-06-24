@@ -1,0 +1,1 @@
+Build a Python CLI tool that converts between CSV and JSON. Commands: csv2json <input.csv> <output.json> and json2csv <input.json> <output.csv>. Show a simple progress bar. Use argparse only.

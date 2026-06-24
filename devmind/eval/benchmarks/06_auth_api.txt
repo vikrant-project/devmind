@@ -1,0 +1,1 @@
+Build a FastAPI authentication API with user registration, login (JWT), and a protected /me endpoint. Use SQLite, pydantic v2, and passlib for password hashing. Include pytest tests.

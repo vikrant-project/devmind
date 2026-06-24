@@ -1,0 +1,1 @@
+Build a Discord bot using discord.py with three slash commands: /hello, /roll (dice 1d20), /trivia (random multiple-choice trivia). Read token from DISCORD_TOKEN env var.
